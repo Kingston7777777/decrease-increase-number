@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>increase_decrease_number</title>
+    <style>
+        div{
+            display: block;
+            text-align: center;
+        }
+        #decreaseBtn{
+            background-color: red;
+            font-size: 4vh;
+            cursor: pointer;
+            border: 0px;
+            border-radius: 10%;
+            color: white;
+            font: bold;
+        }
+        #increaseBtn{
+            background-color: red;
+            font-size: 4vh;
+            cursor: pointer;
+            border: 0px;
+            border-radius: 10%;
+            color: white;
+            font: bold;
+        }
+        #resetBtn{
+            background-color: red;
+            font-size: 4vh;
+            cursor: pointer;
+            border: 0px;
+            border-radius: 10%;
+            color: white;
+            font: bold;
+        }
+        
+        #countLabel{
+            color: cornsilk;
+            font-size: 50px;
+        }
+        body{
+            background-color: lightskyblue;
+        }
+        @media (max-Width: 487px){
+        body{
+            background-color: darkblue;
+        }
+        #countLabel{
+            font-size: 40px;
+        }
+        #decreaseBtn{
+            background-color: red;
+            font-size: 3vh;
+            border-radius: 7%;
+        }
+        #increaseBtn{
+            background-color: red;
+            font-size: 3vh;
+            border-radius: 7%;
+        }
+        #resetBtn{
+            background-color: red;
+            font-size: 3vh;
+            border-radius: 7%;
+        }
+        }
+
+        @media (max-Width: 275px){
+        #countLabel{
+            font-size: 30px;
+        }
+        #decreaseBtn{
+            background-color: red;
+            font-size: 2vh;
+            border-radius: 4%;
+        }
+        #increaseBtn{
+            background-color: red;
+            font-size: 2vh;
+            border-radius: 5%;
+        }
+        #resetBtn{
+            background-color: red;
+            font-size: 2vh;
+            border-radius: 5%;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <label id="countLabel">0</label><br>
+    <button id="decreaseBtn">decrease</button>
+    <button id="resetBtn">reset</button>
+    <button id="increaseBtn">increase</button>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
